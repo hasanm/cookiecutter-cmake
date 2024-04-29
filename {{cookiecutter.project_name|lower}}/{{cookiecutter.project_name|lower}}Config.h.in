@@ -1,0 +1,2 @@
+#define {{cookiecutter.project_name|lower}}_VERSION_MAJOR @{{cookiecutter.project_name|lower}}_VERSION_MAJOR@
+#define {{cookiecutter.project_name|lower}}_VERSION_MINOR @{{cookiecutter.project_name|lower}}_VERSION_MINOR@
