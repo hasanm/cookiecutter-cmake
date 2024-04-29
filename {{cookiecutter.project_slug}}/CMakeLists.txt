@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.10)
-project ({{cookiecutter.project_name}} VERSION 1.0 LANGUAGES CXX)
+project ({{cookiecutter.pkg_name}} VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -9,7 +9,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 
-configure_file({{cookiecutter.project_name|lower}}Config.h.in {{cookiecutter.project_name|lower}}Config.h)
+configure_file({{cookiecutter.pkg_name}}Config.h.in {{cookiecutter.pkg_name}}Config.h)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(OpenCV REQUIRED )

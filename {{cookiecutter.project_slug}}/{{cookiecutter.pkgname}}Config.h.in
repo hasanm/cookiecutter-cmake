@@ -1,0 +1,2 @@
+#define {{cookiecutter.pkg_name}}_VERSION_MAJOR @{{cookiecutter.pkg_name}}_VERSION_MAJOR@
+#define {{cookiecutter.pkg_name}}_VERSION_MINOR @{{cookiecutter.pkg_name}}_VERSION_MINOR@
