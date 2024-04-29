@@ -5,7 +5,7 @@
 ## Getting Started
 
 ```
-cookiecutter gh:hasan/cookiecutter-cmake
+cookiecutter gh:hasanm/cookiecutter-cmake
 cd {{ project_name }}/build
 cmake ..
 make -j4
